@@ -1,0 +1,14 @@
+jaffle_shop:
+  outputs:
+    dev:
+      dataset: jaffle_shop
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /Users/shadiq.heyder/Downloads/project-1-397511-5d5f4b53ab76.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: project-1-397511
+      threads: 1
+      type: bigquery
+  target: dev
